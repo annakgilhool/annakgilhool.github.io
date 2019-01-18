@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width: 960px;
+	margin: 0 auto;
+	font-family: "Myriad Pro", Arial, Helvetica, "sans-serif";
+	font-size: 16px;
+}
+	
+
+body#background{
+	background:url(../images/homepage.jpg) no-repeat;
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.title{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 120px;
+	margin: 350px 10px 10px;
+	width: 960px;
+}
+
+img.beach{
+	float: left;
+	width: 450px;
+	height: 633px;
+	margin: 5px 20px;
+
+}
+
+
+.about_me{
+	float: left;
+	width: 350px;
+	line-height: 1.4em;
+	padding: 5px 10px;
+	margin: 75px 20px;
+	
+}
+
+h1{
+	background: #FF9698;
+	padding: 5px 10px;
+}
+
+.home_nav a:link{
+	color: white;
+}
+
+
+.home_nav a:visited{
+	color: white;
+}
+
+.home_nav a:hover{
+	color: #FF9698;
+	font-size: 20px;
+}
+
+.home_nav ul{
+	margin: 30px 0px;
+	border: none;
+}
+
+.home_nav li{
+	margin: 0px 0px;
+}
+
+
+nav ul{
+	width: 960px;
+	padding: 10px;
+	margin: 20px 0px;
+	font-size: 150%;
+	text-aligin: center;
+	border: thin white solid;
+
+	
+}
+
+nav li{
+	display: inline;
+	margin: 7px 10px;
+	text-transform: uppercase;
+}
+
+nav{
+	text-align: center;
+	word-spacing: 50px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a:link{
+	color: #FF9698;
+	text-decoration: none;
+}
+
+a:visited{
+	color:#A25556;
+}
+
+a:hover{
+	color:#73ADF1;
+}
+.column1{
+	float: left;
+	width: 450px;
+	height: 633px;
+	margin: 5px 20px;
+}
+
+.column2{
+	float: left;
+	width: 350px;
+	line-height: 1.4em;
+	padding: 5px 10px;
+	margin: 210px 20px 200px;
+}
+.photography1, .photography2, .photography3, .photography4, .photography5, .photography6{
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 10px 10px;
+}
+
+.photography7{
+	float: left;
+	width: 960px;
+	line-height: 1.4em;
+}
+
+h2{
+	margin: 20px 7px;
+	border: medium;
+}
+
+.date{
+	font-size: 16px;
+	color:#303030;
+}
